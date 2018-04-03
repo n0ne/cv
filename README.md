@@ -28,4 +28,6 @@ My CV in Reat + GraphQL + node.js mode (-:
 
           http://localhost:3020
 
+And in result something like this...
+
 ![In result must be something like this](https://github.com/n0ne/cv/blob/master/CVapp.png)
