@@ -27,3 +27,5 @@ My CV in Reat + GraphQL + node.js mode (-:
 * Open in browser:
 
           http://localhost:3020
+
+![In result must be something like this](http://url/to/img.png)
