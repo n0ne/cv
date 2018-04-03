@@ -1,6 +1,6 @@
 # Test App
 
-My CV in Reat + GraphQL + node.js mode (-:
+My CV in React + GraphQL + node.js mode (-:
 
 ## Getting Started
 
