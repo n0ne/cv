@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import { compose, lifecycle } from 'recompose'
 
 import { Switch, Route } from 'react-router-dom'
 

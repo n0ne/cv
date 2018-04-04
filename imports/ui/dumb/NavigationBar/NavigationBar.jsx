@@ -1,17 +1,12 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import { Navbar, Nav } from 'react-bootstrap'
-
-// import UserManagement from '../../components/UserManagement/UserManagement'
-// import ChangeLocale from '../../components/Change.Locale/ChangeLocale'
-// import Search from '../../components/Search/Search'
 
 import HeaderLink from '../../components/Header.Link/HeaderLink'
 
 import './NavigationBar.css'
 
-const NavigationBar = ({ user, login, logout }) => {
+const NavigationBar = () => {
 	return (
 		<Navbar collapseOnSelect>
 			<Navbar.Header>
@@ -29,12 +24,6 @@ const NavigationBar = ({ user, login, logout }) => {
 			</Navbar.Collapse>
 		</Navbar>
 	)
-}
-
-NavigationBar.propTypes = {
-	// client:         PropTypes.object,
-	// history:	      PropTypes.object,
-	user: PropTypes.object,
 }
 
 export default NavigationBar

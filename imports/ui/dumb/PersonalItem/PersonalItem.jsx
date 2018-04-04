@@ -17,8 +17,6 @@ const PersonalItem = ({ title = 'Default title', value = 'default value' }) => {
 }
 
 PersonalItem.propTypes = {
-	// client:         PropTypes.object,
-	// history:	      PropTypes.object,
 	title: PropTypes.string,
 	value: PropTypes.string,
 }

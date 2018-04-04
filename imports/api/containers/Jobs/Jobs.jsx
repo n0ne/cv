@@ -49,8 +49,6 @@ Job.propTypes = {
 }
 
 const Jobs = ({ jobs }) => {
-	// console.log(props)
-
 	return (
 		<>
 			<h3>Work expirience</h3>
