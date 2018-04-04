@@ -1,9 +1,11 @@
 # Test App
 
 My CV in React + GraphQL + node.js mode (-:
+
 It was a test task at one of the interviews
 
 It isn't real app, because it doesn't use any DBs, only represents my CV in different form.
+
 But it is real app, because it works! (-:
 
 What this app has:

@@ -2,8 +2,8 @@ export const jobsResolver = async (root, args, context) => {
 	const Jobs = [
 		{
 			_id: 1,
-			from: 'From May 2004',
-			to: 'To present time',
+			from: 'May 2004',
+			to: 'present time',
 			company: 'LLC «Trading House TiD»',
 			position: 'Programmer/System adminstrator',
 			stack: [
