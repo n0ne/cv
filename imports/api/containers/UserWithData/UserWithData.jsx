@@ -80,9 +80,10 @@ UserInfo.propTypes = {
 
 const UserWithData = () => (
 	<Query query={ME_QUERY}>
-		{({ loading, data: { me } }) => {
+		{({ loading, data }) => {
+			console.log(data)
 			if (loading) return <span>loading....</span>
-			return <UserInfo me={me} />
+			return <UserInfo me={data.me} />
 		}}
 	</Query>
 )

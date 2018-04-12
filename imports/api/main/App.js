@@ -11,7 +11,7 @@ const history = createHistory()
 
 // Pass your GraphQL endpoint to uri
 const client = new ApolloClient({
-	uri: 'http://192.168.55.200:3022/graphql',
+	uri: 'http://localhost:3022/graphql',
 })
 
 const App = () => (
