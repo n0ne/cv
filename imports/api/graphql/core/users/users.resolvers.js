@@ -1,6 +1,4 @@
 export const meResolver = async (root, args, context) => {
-	console.log('User info ask')
-
 	const User = {
 		_id: '100001908893158',
 		firstName: 'Alexander',
